@@ -126,4 +126,4 @@ Sketch your apartment on paper, measure the rooms, and fill in the numbers.
 | Tapo | `tplink-tapo-connect` (local LAN) |
 | WiZ | UDP local API |
 | Hosting | Vercel |
-| Local relay | Node.js + Cloudflare Tunnel |
+| Local relay | Node.js + Cloudflare Tunnel | 
