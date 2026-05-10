@@ -1,0 +1,13 @@
+{
+  "name": "home-proxy",
+  "version": "1.0.0",
+  "description": "Local relay for Tapo lights",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "tp-link-tapo-connect": "2.0.15"
+  }
+}
