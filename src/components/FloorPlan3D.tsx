@@ -134,7 +134,6 @@ function RoomBox({ room, isSelected, onClick, lights }: {
         color={isSelected ? '#9090ff' : '#555566'}
         anchorX="center"
         anchorY="middle"
-        font="/fonts/inter.woff"
       >
         {room.name}
       </Text>
