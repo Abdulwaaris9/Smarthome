@@ -25,42 +25,42 @@ export const ROOMS: Room[] = [
 export const INITIAL_LIGHTS: Light[] = [
 
   // ── Boys' Room ── 3 Govee strips ─────────────────────────
-  {
-    id: 'Desk Light',
-    name: 'Strip 1',
-    brand: 'govee',
-    roomId: 'boys-room',
-    on: false,
-    brightness: 80,
-    color: { r: 100, g: 160, b: 255 },
-    online: false,
-    deviceId: 'D4:AD:FC:F9:C4:06',   // ← REPLACE with Govee Device ID
-    model: 'H6159',
-  },
-  {
-    id: 'M1',
-    name: 'Strip 2',
-    brand: 'govee',
-    roomId: 'boys-room',
-    on: false,
-    brightness: 80,
-    color: { r: 80, g: 120, b: 255 },
-    online: false,
-    deviceId: '60:74:F4:0B:4B:72',   // ← REPLACE
-    model: 'H61C3',
-  },
-  {
-    id: 'Wall Light',
-    name: 'Strip 3',
-    brand: 'govee',
-    roomId: 'boys-room',
-    on: false,
-    brightness: 80,
-    color: { r: 60, g: 100, b: 255 },
-    online: false,
-    deviceId: 'D0:C9:07:3B:E5:40',   // ← REPLACE
-    model: 'H61E0',
-  },
+{
+  id: 'boys-strip-1',
+  name: 'Strip 1',
+  brand: 'govee',
+  roomId: 'boys-room',
+  on: false,
+  brightness: 80,
+  color: { r: 100, g: 160, b: 255 },
+  online: false,
+  deviceId: 'F1:5B:D1:36:35:30:56:0F',
+  model: 'H61E0',
+},
+{
+  id: 'boys-strip-2',
+  name: 'Strip 2',
+  brand: 'govee',
+  roomId: 'boys-room',
+  on: false,
+  brightness: 80,
+  color: { r: 80, g: 120, b: 255 },
+  online: false,
+  deviceId: '20:95:C9:F0:84:06:21:3B',
+  model: 'H61B5',
+},
+{
+  id: 'boys-strip-3',
+  name: 'Strip 3',
+  brand: 'govee',
+  roomId: 'boys-room',
+  on: false,
+  brightness: 80,
+  color: { r: 60, g: 100, b: 255 },
+  online: false,
+  deviceId: '1A:C5:35:34:35:34:59:FF',
+  model: 'H61C3',
+},
 
   // ── Hall ── 2 Tapo bulbs ──────────────────────────────────
   {
