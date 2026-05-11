@@ -47,7 +47,7 @@ export const INITIAL_LIGHTS: Light[] = [
     color: { r: 80, g: 120, b: 255 },
     online: false,
     deviceId: '60:74:F4:0B:4B:72',   // ← REPLACE
-    model: 'H6159',
+    model: 'H61C3',
   },
   {
     id: 'Wall Light',
@@ -59,7 +59,7 @@ export const INITIAL_LIGHTS: Light[] = [
     color: { r: 60, g: 100, b: 255 },
     online: false,
     deviceId: 'D0:C9:07:3B:E5:40',   // ← REPLACE
-    model: 'H6159',
+    model: 'H61E0',
   },
 
   // ── Hall ── 2 Tapo bulbs ──────────────────────────────────
