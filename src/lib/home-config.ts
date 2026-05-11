@@ -27,19 +27,19 @@ export const INITIAL_LIGHTS: Light[] = [
   // ── Boys' Room ── 3 Govee strips ─────────────────────────
 {
   id: 'boys-strip-1',
-  name: 'Strip 1',
+  name: 'Neon Rope',
   brand: 'govee',
   roomId: 'boys-room',
   on: false,
   brightness: 80,
   color: { r: 100, g: 160, b: 255 },
   online: false,
-  deviceId: 'F1:5B:D1:36:35:30:56:0F',
-  model: 'H61E0',
+  deviceId: '1A:C5:35:34:35:34:59:FF',
+  model: 'H61C3',
 },
 {
   id: 'boys-strip-2',
-  name: 'Strip 2',
+  name: 'RGBIC Strip',
   brand: 'govee',
   roomId: 'boys-room',
   on: false,
@@ -51,17 +51,16 @@ export const INITIAL_LIGHTS: Light[] = [
 },
 {
   id: 'boys-strip-3',
-  name: 'Strip 3',
+  name: 'M1 Strip',
   brand: 'govee',
   roomId: 'boys-room',
   on: false,
   brightness: 80,
   color: { r: 60, g: 100, b: 255 },
   online: false,
-  deviceId: '1A:C5:35:34:35:34:59:FF',
-  model: 'H61C3',
+  deviceId: 'F1:5B:D1:36:35:30:56:0F',
+  model: 'H61E0',
 },
-
   // ── Hall ── 2 Tapo bulbs ──────────────────────────────────
   {
     id: 'hall-bulb-1',
